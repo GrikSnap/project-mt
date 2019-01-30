@@ -8,14 +8,57 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: whitesmoke;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: darkgrey;
+  font-family: 'Comic Sans MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.App-nav{
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.App-maps{
+
+  height: 100vh;
+}
+
+.Nav-search{
+  width: 85%;
+  margin-left: 9%;
+  margin-top: 20px;
+}
+
+.App-list{
+  margin-top: 10px;
+}
+
+.List-element{
+  background: rgba(212, 209, 209, 0.322);
+  padding: 25px;
+  margin: 5px;
+  text-align: center;
+  color: black;
+}
+
+.List-element img{
+  width: 10%;
+}
+
+.List-element:hover{
+  background-color: rgba(212, 209, 209, 0.445);
+}
+
+.Maps{
+  padding: 0;
+  height:90vh;
+
 }
 
 .App-link {
